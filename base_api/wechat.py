@@ -1,5 +1,5 @@
 import yaml
-from test_requests.base_api.base_api import BaseApi
+from test_req.base_api.base_api import BaseApi
 
 class WeChat(BaseApi):
     def get_token(self,corpsecret):
